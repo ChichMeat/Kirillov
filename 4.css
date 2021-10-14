@@ -1,0 +1,102 @@
+@font-face {
+    font-family: SFProDisplay-Regular;
+    src: url(addition/SFProDisplay-Regular.ttf);
+}
+
+.header {
+    background: #333333;
+}
+
+ul, li {
+    display: block;
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu a:visited {
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    background: #2b2929;
+    color: #f1f1f1e1;
+}
+
+    .links a {
+        text-decoration: none;
+        color: #f1f1f1e1;
+    }
+
+.insideLinks {
+    margin-left: 15px;
+}
+
+.table {
+    order: 3;
+}
+
+table {
+    width: 900px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 4px 8px 2px 6px;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    background-color: #333333;
+    color: #fff;
+}
+
+tr:nth-child(odd) {
+    background-color: #949494;
+}
+
+.form_title {
+    margin-left: 5px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 10px;
+    color: #1f1f1f;
+}
+
+.footer {
+    width: 100%;
+    background: #dddddd;
+    position: fixed;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.custom-control-label {
+    font-size: 15px;
+    font-weight: 500;
+}

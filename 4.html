@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Задание 4</title>
+    <link rel="stylesheet" href="4.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <body style="background-color: #d4d4d473;">
+
+        <header class="header">
+            <div class="container-fluid d-flex justify-content-center">
+                <img src="https://sun9-20.userapi.com/impg/yZEI4s1NO2nB_FL8cW3FlzIepLOMknQuNF_Acw/IRuUwQS1gWk.jpg?size=300x259&quality=96&sign=17bf8c8dc1754e2015a666946f9c9694&type=album" alt="logo">
+        </header>
+
+        <div class="container d-flex justify-content-center ">
+            <nav>
+                <ul class="menu">
+                    <div class="row">
+                        <li class="btn col-md-4 d-flex justify-content-center menu__item">
+                            <a href="">Partner</a>
+                        </li>
+                        <li class="btn col-md-4 d-flex justify-content-center menu__item">
+                            <a href="">Donate</a>
+                        </li>
+                        <li class="btn col-md-4 d-flex justify-content-center menu__item">
+                            <a href="">Support</a>
+                        </li>
+
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="container links justify-content-center">
+                <div class="row">
+                    <ol>
+                        <li><a href="http://government.ru/	" id="#warn">Абсолютная гиперссылка на главную страницу сайта</a></li>
+                        <li><a href="https://www.spotify.com/">Абсолютная ссылка на главную в протоколе https</a></li>
+                        <li><a href="ftp://example.com/myfile.zip">Ссылка на файл на сервере FTP без авторизации</a></li>
+                        <li><a href="ftp://user:password@example.com/myfile.zip">Ссылка на файл на сервере FTP c авторизацией</a></li>
+                        <li>
+                            <a href="https://ru.wikipedia.org/wiki/Руны#Северные,_или_скандинавские_руны">Ссылка на фрагмент страницы некоторого сайта</a>
+                        </li>
+                        <li><a href="#metka">Cсылка на фрагмент текущей страницы</a></li>
+                        <li>Cсылка с<a href="https://example.com/catalog/phone7page=2&perpage=15"> двумя параметрами</a></li>
+                        <li>
+                            <ul>
+                                <li><a href="#warn" title="Тематика">Оглавление</a></li>
+                                <li><a href="#warn" title="Основная информация">Основной материал</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Ссылка без href</a></li>
+                        <li><a href="">Ссылка с пустым href</a></li>
+                        <li><a href="http://government.ru/" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам </a></li>
+                        <li><noindex--><a href="https://www.spotify.com/"> Ссылка, запрещенная для индексации поисковиками </a></noindex--></li>
+                        <li>
+                            <p>
+                                Ого, кликните именно <a id="metka" href="https://kubsu.ru/"> здесь</a>
+                            </p>
+                        </li>
+                        <li>
+                            <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%B2%D0%B5%D1%80%D1%82">
+                                <img src="https://img3.labirint.ru/rc/53eb615bfaa1584ef302e434fccb2dca/220x340/books60/593327/cover.jpg?1564028916" width="90" height="90" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <map name="click">
+                                <area shape="circle" coords="200,200,100" href="https://ru.wikipedia.org/wiki/Некруг" alt="Round" title="Круг">
+                                <area shape="rect" coords="100,100,150,150" href="https://ru.wikipedia.org/wiki/Круг" alt="NotRound" title="Не круг">
+
+                            </map>
+                            <img alt="Кaртинка" src="https://allforchildren.ru/games/img/8-10.gif" width="300" height="300" usemap="#click">
+                        </li>
+                        <li><a href="./example.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                        <li><a href="./about/example.html">Относительная ссылка на страницу в каталоге about</a></li>
+                        <li><a href="../example.html">Относительная на страницу в каталоге уровнем выше текущего</a></li>
+                        <li><a href="../../example.html">Относительная на страницу в каталоге двумя уровнями выше текущего</a></li>
+                        <li><a href="/">Сокращенная ссылка на главную</a></li>
+                        <li><a href="/example.html">Сокращенная ссылка на внутреннюю</a></li>
+
+                    </ol>
+                </div>
+            </div>
+
+            <div class="table">
+                <table>
+                    <tr><th>Неймтег</th><th>Реквизиты</th><th>id</th></tr>
+                    <tr><td>user1</td><td>4278 4951 4892 </td><td>04932</td></tr>
+                    <tr class="alt"><td>user2</td><td>3052 3930 4004 </td><td>40392</td></tr>
+                    <tr><td>user3</td><td>4682 1245 9281 </td><td>80432</td></tr>
+                    <tr class="alt"><td>user4</td><td>7594 1256 5128 </td><td>00032</td></tr>
+                </table>
+            </div>
+
+            <div class="container form d-flex justify-content-sm-center order-md-last">
+                <form action="/">
+                    <div class="form-group">
+                        <div class="form_title">
+                            <h2>Обратная связь</h2>
+                        </div>
+                        <p><input type="text" placeholder="Имя" /></p>
+
+                        <p><input type="email" placeholder="E-mail" /></p>
+
+                        <h6>Дата рождения</h6>
+                        <input type="date">
+
+                        <h6>Пол</h6>
+                        <div class="custom-control custom-radio custom-control-inline custom-dark">
+                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label custom-dark" for="customRadioInline1">М</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline2">Ж</label>
+                        </div>
+
+
+                        <h6>Количество конечностей</h6>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline3" name="customRadioInline2" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline3">1</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline4" name="customRadioInline2" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline4">2</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline5" name="customRadioInline2" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline5">n</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="customRadioInline6" name="customRadioInline2" class="custom-control-input">
+                            <label class="custom-control-label" for="customRadioInline6">∞</label>
+                        </div>
+
+                        <h6>Сверхспособности:</h6>
+
+                        <select class="custom-select">
+                            <option selected>Дисмат на отлично</option>
+                            <option value="1">Хождение сквозь стены</option>
+                            <option value="2">Левитация</option>
+                        </select>
+
+                        <h6>Биография.</h6>
+
+                        <textarea name="message" cols="30" rows="4" placeholder="Расскажите о себе"></textarea>
+
+                        <div class="checkbox">
+                            <div class="custom-control custom-checkbox mb-3">
+                                <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                                <label class="custom-control-label" for="customControlValidation1">Согласен.</label>
+                            </div>
+                        </div>
+
+
+                        <input type="submit" class="btn btn-dark" value="Отправить" />
+
+                </form>
+            </div>
+        </div>
+
+        <div class="footer">
+            © Права не защищены.
+        </div>
+
+
+
+
+    </body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
